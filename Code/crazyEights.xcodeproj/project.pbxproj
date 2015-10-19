@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D74415861BBB2AE0004E84F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74415851BBB2AE0004E84F8 /* AppDelegate.swift */; };
+		D74415881BBB2AE0004E84F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74415871BBB2AE0004E84F8 /* ViewController.swift */; };
+		D744158D1BBB2AE0004E84F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D744158C1BBB2AE0004E84F8 /* Images.xcassets */; };
+		D74415901BBB2AE0004E84F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D744158E1BBB2AE0004E84F8 /* LaunchScreen.xib */; };
+		D744159C1BBB2AE0004E84F8 /* crazyEightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D744159B1BBB2AE0004E84F8 /* crazyEightsTests.swift */; };
+		D74415A61BBB384C004E84F8 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D74415A51BBB384C004E84F8 /* logo.png */; };
+		D74415A81BBB3DCB004E84F8 /* settings_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D74415A71BBB3DCB004E84F8 /* settings_btn.png */; };
+		D74415AA1BBB450C004E84F8 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D74415A91BBB450C004E84F8 /* background.png */; };
+		D74415AC1BBB45C3004E84F8 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = D74415AB1BBB45C3004E84F8 /* player.png */; };
+		D74415AE1BBB4C90004E84F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74415AD1BBB4C90004E84F8 /* Main.storyboard */; };
+		D74415B01BBB5177004E84F8 /* dealcards.png in Resources */ = {isa = PBXBuildFile; fileRef = D74415AF1BBB5177004E84F8 /* dealcards.png */; };
+		D74415B21BBBAC88004E84F8 /* GamePlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74415B11BBBAC88004E84F8 /* GamePlayController.swift */; };
+		D7C0D1D61BBC7A7B0037B7D8 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C0D1D51BBC7A7B0037B7D8 /* icon-60@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D74415961BBB2AE0004E84F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D74415781BBB2ADF004E84F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D744157F1BBB2ADF004E84F8;
+			remoteInfo = crazyEights;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D74415801BBB2AE0004E84F8 /* crazyEights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crazyEights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74415841BBB2AE0004E84F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74415851BBB2AE0004E84F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D74415871BBB2AE0004E84F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D744158C1BBB2AE0004E84F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D744158F1BBB2AE0004E84F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D74415951BBB2AE0004E84F8 /* crazyEightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crazyEightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D744159A1BBB2AE0004E84F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D744159B1BBB2AE0004E84F8 /* crazyEightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crazyEightsTests.swift; sourceTree = "<group>"; };
+		D74415A51BBB384C004E84F8 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = crazyEights.xcodeproj/../../../../../Desktop/logo.png; sourceTree = SOURCE_ROOT; };
+		D74415A71BBB3DCB004E84F8 /* settings_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings_btn.png; path = "crazyEights.xcodeproj/../../../../../../../Volumes/Users/Kamal Gill/Documents/Projects/Apps/Crazy Eight's/Final_Version/settings_btn.png"; sourceTree = SOURCE_ROOT; };
+		D74415A91BBB450C004E84F8 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = "/Volumes/Users/Kamal Gill/Documents/Projects/Apps/Crazy Eight's/Final_Version/images/background.png"; sourceTree = "<absolute>"; };
+		D74415AB1BBB45C3004E84F8 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = player.png; path = "/Volumes/Users/Kamal Gill/Documents/Projects/Apps/Crazy Eight's/Final_Version/images/player.png"; sourceTree = "<absolute>"; };
+		D74415AD1BBB4C90004E84F8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D74415AF1BBB5177004E84F8 /* dealcards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dealcards.png; path = "/Volumes/Users/Kamal Gill/Documents/Projects/Apps/Crazy Eight's/Final_Version/images/dealcards.png"; sourceTree = "<absolute>"; };
+		D74415B11BBBAC88004E84F8 /* GamePlayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlayController.swift; sourceTree = "<group>"; };
+		D7C0D1D51BBC7A7B0037B7D8 /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D744157D1BBB2ADF004E84F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74415921BBB2AE0004E84F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D74415771BBB2ADF004E84F8 = {
+			isa = PBXGroup;
+			children = (
+				D74415821BBB2AE0004E84F8 /* crazyEights */,
+				D74415981BBB2AE0004E84F8 /* crazyEightsTests */,
+				D74415811BBB2AE0004E84F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D74415811BBB2AE0004E84F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D74415801BBB2AE0004E84F8 /* crazyEights.app */,
+				D74415951BBB2AE0004E84F8 /* crazyEightsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D74415821BBB2AE0004E84F8 /* crazyEights */ = {
+			isa = PBXGroup;
+			children = (
+				D7C0D1D51BBC7A7B0037B7D8 /* icon-60@2x.png */,
+				D74415A91BBB450C004E84F8 /* background.png */,
+				D74415AB1BBB45C3004E84F8 /* player.png */,
+				D74415AF1BBB5177004E84F8 /* dealcards.png */,
+				D74415AD1BBB4C90004E84F8 /* Main.storyboard */,
+				D74415A71BBB3DCB004E84F8 /* settings_btn.png */,
+				D74415A51BBB384C004E84F8 /* logo.png */,
+				D74415851BBB2AE0004E84F8 /* AppDelegate.swift */,
+				D74415871BBB2AE0004E84F8 /* ViewController.swift */,
+				D744158C1BBB2AE0004E84F8 /* Images.xcassets */,
+				D744158E1BBB2AE0004E84F8 /* LaunchScreen.xib */,
+				D74415831BBB2AE0004E84F8 /* Supporting Files */,
+				D74415B11BBBAC88004E84F8 /* GamePlayController.swift */,
+			);
+			path = crazyEights;
+			sourceTree = "<group>";
+		};
+		D74415831BBB2AE0004E84F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D74415841BBB2AE0004E84F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D74415981BBB2AE0004E84F8 /* crazyEightsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D744159B1BBB2AE0004E84F8 /* crazyEightsTests.swift */,
+				D74415991BBB2AE0004E84F8 /* Supporting Files */,
+			);
+			path = crazyEightsTests;
+			sourceTree = "<group>";
+		};
+		D74415991BBB2AE0004E84F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D744159A1BBB2AE0004E84F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D744157F1BBB2ADF004E84F8 /* crazyEights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D744159F1BBB2AE0004E84F8 /* Build configuration list for PBXNativeTarget "crazyEights" */;
+			buildPhases = (
+				D744157C1BBB2ADF004E84F8 /* Sources */,
+				D744157D1BBB2ADF004E84F8 /* Frameworks */,
+				D744157E1BBB2ADF004E84F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = crazyEights;
+			productName = crazyEights;
+			productReference = D74415801BBB2AE0004E84F8 /* crazyEights.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D74415941BBB2AE0004E84F8 /* crazyEightsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74415A21BBB2AE0004E84F8 /* Build configuration list for PBXNativeTarget "crazyEightsTests" */;
+			buildPhases = (
+				D74415911BBB2AE0004E84F8 /* Sources */,
+				D74415921BBB2AE0004E84F8 /* Frameworks */,
+				D74415931BBB2AE0004E84F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D74415971BBB2AE0004E84F8 /* PBXTargetDependency */,
+			);
+			name = crazyEightsTests;
+			productName = crazyEightsTests;
+			productReference = D74415951BBB2AE0004E84F8 /* crazyEightsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D74415781BBB2ADF004E84F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kamal Gill";
+				TargetAttributes = {
+					D744157F1BBB2ADF004E84F8 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = EUJ48B943H;
+					};
+					D74415941BBB2AE0004E84F8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D744157F1BBB2ADF004E84F8;
+					};
+				};
+			};
+			buildConfigurationList = D744157B1BBB2ADF004E84F8 /* Build configuration list for PBXProject "crazyEights" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D74415771BBB2ADF004E84F8;
+			productRefGroup = D74415811BBB2AE0004E84F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D744157F1BBB2ADF004E84F8 /* crazyEights */,
+				D74415941BBB2AE0004E84F8 /* crazyEightsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D744157E1BBB2ADF004E84F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74415AE1BBB4C90004E84F8 /* Main.storyboard in Resources */,
+				D74415AC1BBB45C3004E84F8 /* player.png in Resources */,
+				D74415A61BBB384C004E84F8 /* logo.png in Resources */,
+				D74415B01BBB5177004E84F8 /* dealcards.png in Resources */,
+				D74415AA1BBB450C004E84F8 /* background.png in Resources */,
+				D74415A81BBB3DCB004E84F8 /* settings_btn.png in Resources */,
+				D7C0D1D61BBC7A7B0037B7D8 /* icon-60@2x.png in Resources */,
+				D74415901BBB2AE0004E84F8 /* LaunchScreen.xib in Resources */,
+				D744158D1BBB2AE0004E84F8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74415931BBB2AE0004E84F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D744157C1BBB2ADF004E84F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74415B21BBBAC88004E84F8 /* GamePlayController.swift in Sources */,
+				D74415881BBB2AE0004E84F8 /* ViewController.swift in Sources */,
+				D74415861BBB2AE0004E84F8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74415911BBB2AE0004E84F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D744159C1BBB2AE0004E84F8 /* crazyEightsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D74415971BBB2AE0004E84F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D744157F1BBB2ADF004E84F8 /* crazyEights */;
+			targetProxy = D74415961BBB2AE0004E84F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D744158E1BBB2AE0004E84F8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D744158F1BBB2AE0004E84F8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D744159D1BBB2AE0004E84F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D744159E1BBB2AE0004E84F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D74415A01BBB2AE0004E84F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = crazyEights/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D74415A11BBB2AE0004E84F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = crazyEights/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D74415A31BBB2AE0004E84F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = crazyEightsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crazyEights.app/crazyEights";
+			};
+			name = Debug;
+		};
+		D74415A41BBB2AE0004E84F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = crazyEightsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crazyEights.app/crazyEights";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D744157B1BBB2ADF004E84F8 /* Build configuration list for PBXProject "crazyEights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D744159D1BBB2AE0004E84F8 /* Debug */,
+				D744159E1BBB2AE0004E84F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D744159F1BBB2AE0004E84F8 /* Build configuration list for PBXNativeTarget "crazyEights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74415A01BBB2AE0004E84F8 /* Debug */,
+				D74415A11BBB2AE0004E84F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74415A21BBB2AE0004E84F8 /* Build configuration list for PBXNativeTarget "crazyEightsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74415A31BBB2AE0004E84F8 /* Debug */,
+				D74415A41BBB2AE0004E84F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D74415781BBB2ADF004E84F8 /* Project object */;
+}
