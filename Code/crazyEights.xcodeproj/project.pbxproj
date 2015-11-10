@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B267E7851BDF141F001A461B /* LeaderboardSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B267E7841BDF141F001A461B /* LeaderboardSingleton.swift */; };
 		D74415861BBB2AE0004E84F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74415851BBB2AE0004E84F8 /* AppDelegate.swift */; };
 		D74415881BBB2AE0004E84F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74415871BBB2AE0004E84F8 /* ViewController.swift */; };
 		D744158D1BBB2AE0004E84F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D744158C1BBB2AE0004E84F8 /* Images.xcassets */; };
 		D74415901BBB2AE0004E84F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D744158E1BBB2AE0004E84F8 /* LaunchScreen.xib */; };
 		D744159C1BBB2AE0004E84F8 /* crazyEightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D744159B1BBB2AE0004E84F8 /* crazyEightsTests.swift */; };
-		D74415A61BBB384C004E84F8 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D74415A51BBB384C004E84F8 /* logo.png */; };
-		D74415A81BBB3DCB004E84F8 /* settings_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D74415A71BBB3DCB004E84F8 /* settings_btn.png */; };
-		D74415AA1BBB450C004E84F8 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D74415A91BBB450C004E84F8 /* background.png */; };
-		D74415AC1BBB45C3004E84F8 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = D74415AB1BBB45C3004E84F8 /* player.png */; };
 		D74415AE1BBB4C90004E84F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74415AD1BBB4C90004E84F8 /* Main.storyboard */; };
-		D74415B01BBB5177004E84F8 /* dealcards.png in Resources */ = {isa = PBXBuildFile; fileRef = D74415AF1BBB5177004E84F8 /* dealcards.png */; };
 		D74415B21BBBAC88004E84F8 /* GamePlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74415B11BBBAC88004E84F8 /* GamePlayController.swift */; };
+		D7747D521BBE266D00E95D6F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D7747D4F1BBE266D00E95D6F /* background.png */; };
+		D7747D531BBE266D00E95D6F /* dealcards.png in Resources */ = {isa = PBXBuildFile; fileRef = D7747D501BBE266D00E95D6F /* dealcards.png */; };
+		D7747D541BBE266D00E95D6F /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = D7747D511BBE266D00E95D6F /* player.png */; };
+		D79E10EB1BE96EE6005B6A46 /* maria_profile_head_02.png in Resources */ = {isa = PBXBuildFile; fileRef = D79E10EA1BE96EE6005B6A46 /* maria_profile_head_02.png */; };
+		D79E10ED1BE96FFF005B6A46 /* matt_profile_head_02.png in Resources */ = {isa = PBXBuildFile; fileRef = D79E10EC1BE96FFF005B6A46 /* matt_profile_head_02.png */; };
+		D79E10EF1BE97CF0005B6A46 /* nelson_profile_head_02.png in Resources */ = {isa = PBXBuildFile; fileRef = D79E10EE1BE97CF0005B6A46 /* nelson_profile_head_02.png */; };
+		D79E10F11BE97D30005B6A46 /* jesse_profile_head_02.png in Resources */ = {isa = PBXBuildFile; fileRef = D79E10F01BE97D30005B6A46 /* jesse_profile_head_02.png */; };
+		D79E10F31BE97D82005B6A46 /* jane_profile_head_02.png in Resources */ = {isa = PBXBuildFile; fileRef = D79E10F21BE97D82005B6A46 /* jane_profile_head_02.png */; };
+		D7A7AFC41BE7FC8D001A5B58 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A7AFC31BE7FC8D001A5B58 /* logo.png */; };
+		D7A7AFD21BE80F50001A5B58 /* left_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A7AFCF1BE80F50001A5B58 /* left_arrow@2x.png */; };
+		D7A7AFD31BE80F50001A5B58 /* points_tracker_06.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A7AFD01BE80F50001A5B58 /* points_tracker_06.png */; };
+		D7A7AFD61BE8265C001A5B58 /* lose_banner_06.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A7AFD51BE8265C001A5B58 /* lose_banner_06.png */; };
+		D7A7AFDC1BE88D12001A5B58 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A7AFDB1BE88D12001A5B58 /* PlayerController.swift */; };
+		D7A7AFE61BE896BA001A5B58 /* jane_profile_02.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A7AFE11BE896BA001A5B58 /* jane_profile_02.png */; };
+		D7A7AFE71BE896BA001A5B58 /* jesse_profile_02.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A7AFE21BE896BA001A5B58 /* jesse_profile_02.png */; };
+		D7A7AFE81BE896BA001A5B58 /* maria_profile_02.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A7AFE31BE896BA001A5B58 /* maria_profile_02.png */; };
+		D7A7AFE91BE896BA001A5B58 /* matt_profile_02.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A7AFE41BE896BA001A5B58 /* matt_profile_02.png */; };
+		D7A7AFEA1BE896BA001A5B58 /* nelson_profile_02.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A7AFE51BE896BA001A5B58 /* nelson_profile_02.png */; };
+		D7B2E4131BD60AE3002FA664 /* settings_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D7B2E4121BD60AE3002FA664 /* settings_btn.png */; };
+		D7B2E4171BD89D93002FA664 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B2E4161BD89D93002FA664 /* SettingsController.swift */; };
+		D7B2E4191BD8A2AB002FA664 /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B2E4181BD8A2AB002FA664 /* HomePageController.swift */; };
+		D7BBEA0D1BD9F236000126B7 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BBEA0C1BD9F236000126B7 /* BLEManager.swift */; };
+		D7BBEA0F1BD9F418000126B7 /* BLEHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BBEA0E1BD9F418000126B7 /* BLEHandler.swift */; };
+		D7BBEA111BDA0167000126B7 /* LeaderboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BBEA101BDA0167000126B7 /* LeaderboardController.swift */; };
 		D7C0D1D61BBC7A7B0037B7D8 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C0D1D51BBC7A7B0037B7D8 /* icon-60@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B267E7841BDF141F001A461B /* LeaderboardSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardSingleton.swift; sourceTree = "<group>"; };
 		D74415801BBB2AE0004E84F8 /* crazyEights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crazyEights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74415841BBB2AE0004E84F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D74415851BBB2AE0004E84F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,13 +63,32 @@
 		D74415951BBB2AE0004E84F8 /* crazyEightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crazyEightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D744159A1BBB2AE0004E84F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D744159B1BBB2AE0004E84F8 /* crazyEightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crazyEightsTests.swift; sourceTree = "<group>"; };
-		D74415A51BBB384C004E84F8 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = crazyEights.xcodeproj/../../../../../Desktop/logo.png; sourceTree = SOURCE_ROOT; };
-		D74415A71BBB3DCB004E84F8 /* settings_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings_btn.png; path = "crazyEights.xcodeproj/../../../../../../../Volumes/Users/Kamal Gill/Documents/Projects/Apps/Crazy Eight's/Final_Version/settings_btn.png"; sourceTree = SOURCE_ROOT; };
-		D74415A91BBB450C004E84F8 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = "/Volumes/Users/Kamal Gill/Documents/Projects/Apps/Crazy Eight's/Final_Version/images/background.png"; sourceTree = "<absolute>"; };
-		D74415AB1BBB45C3004E84F8 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = player.png; path = "/Volumes/Users/Kamal Gill/Documents/Projects/Apps/Crazy Eight's/Final_Version/images/player.png"; sourceTree = "<absolute>"; };
 		D74415AD1BBB4C90004E84F8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D74415AF1BBB5177004E84F8 /* dealcards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dealcards.png; path = "/Volumes/Users/Kamal Gill/Documents/Projects/Apps/Crazy Eight's/Final_Version/images/dealcards.png"; sourceTree = "<absolute>"; };
 		D74415B11BBBAC88004E84F8 /* GamePlayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlayController.swift; sourceTree = "<group>"; };
+		D7747D4F1BBE266D00E95D6F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		D7747D501BBE266D00E95D6F /* dealcards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dealcards.png; sourceTree = "<group>"; };
+		D7747D511BBE266D00E95D6F /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		D79E10EA1BE96EE6005B6A46 /* maria_profile_head_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maria_profile_head_02.png; sourceTree = "<group>"; };
+		D79E10EC1BE96FFF005B6A46 /* matt_profile_head_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = matt_profile_head_02.png; sourceTree = "<group>"; };
+		D79E10EE1BE97CF0005B6A46 /* nelson_profile_head_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nelson_profile_head_02.png; sourceTree = "<group>"; };
+		D79E10F01BE97D30005B6A46 /* jesse_profile_head_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jesse_profile_head_02.png; sourceTree = "<group>"; };
+		D79E10F21BE97D82005B6A46 /* jane_profile_head_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jane_profile_head_02.png; sourceTree = "<group>"; };
+		D7A7AFC31BE7FC8D001A5B58 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		D7A7AFCF1BE80F50001A5B58 /* left_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left_arrow@2x.png"; sourceTree = "<group>"; };
+		D7A7AFD01BE80F50001A5B58 /* points_tracker_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = points_tracker_06.png; sourceTree = "<group>"; };
+		D7A7AFD51BE8265C001A5B58 /* lose_banner_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lose_banner_06.png; sourceTree = "<group>"; };
+		D7A7AFDB1BE88D12001A5B58 /* PlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		D7A7AFE11BE896BA001A5B58 /* jane_profile_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jane_profile_02.png; sourceTree = "<group>"; };
+		D7A7AFE21BE896BA001A5B58 /* jesse_profile_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jesse_profile_02.png; sourceTree = "<group>"; };
+		D7A7AFE31BE896BA001A5B58 /* maria_profile_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maria_profile_02.png; sourceTree = "<group>"; };
+		D7A7AFE41BE896BA001A5B58 /* matt_profile_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = matt_profile_02.png; sourceTree = "<group>"; };
+		D7A7AFE51BE896BA001A5B58 /* nelson_profile_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nelson_profile_02.png; sourceTree = "<group>"; };
+		D7B2E4121BD60AE3002FA664 /* settings_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_btn.png; sourceTree = "<group>"; };
+		D7B2E4161BD89D93002FA664 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		D7B2E4181BD8A2AB002FA664 /* HomePageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
+		D7BBEA0C1BD9F236000126B7 /* BLEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		D7BBEA0E1BD9F418000126B7 /* BLEHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEHandler.swift; sourceTree = "<group>"; };
+		D7BBEA101BDA0167000126B7 /* LeaderboardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardController.swift; sourceTree = "<group>"; };
 		D7C0D1D51BBC7A7B0037B7D8 /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,19 +131,39 @@
 		D74415821BBB2AE0004E84F8 /* crazyEights */ = {
 			isa = PBXGroup;
 			children = (
+				D79E10F21BE97D82005B6A46 /* jane_profile_head_02.png */,
+				D79E10F01BE97D30005B6A46 /* jesse_profile_head_02.png */,
+				D79E10EE1BE97CF0005B6A46 /* nelson_profile_head_02.png */,
+				D79E10EC1BE96FFF005B6A46 /* matt_profile_head_02.png */,
+				D79E10EA1BE96EE6005B6A46 /* maria_profile_head_02.png */,
+				D7A7AFE11BE896BA001A5B58 /* jane_profile_02.png */,
+				D7A7AFE21BE896BA001A5B58 /* jesse_profile_02.png */,
+				D7A7AFE31BE896BA001A5B58 /* maria_profile_02.png */,
+				D7A7AFE41BE896BA001A5B58 /* matt_profile_02.png */,
+				D7A7AFE51BE896BA001A5B58 /* nelson_profile_02.png */,
+				D7A7AFD51BE8265C001A5B58 /* lose_banner_06.png */,
+				D7A7AFCF1BE80F50001A5B58 /* left_arrow@2x.png */,
+				D7A7AFD01BE80F50001A5B58 /* points_tracker_06.png */,
+				D7A7AFC31BE7FC8D001A5B58 /* logo.png */,
+				D7B2E4121BD60AE3002FA664 /* settings_btn.png */,
 				D7C0D1D51BBC7A7B0037B7D8 /* icon-60@2x.png */,
-				D74415A91BBB450C004E84F8 /* background.png */,
-				D74415AB1BBB45C3004E84F8 /* player.png */,
-				D74415AF1BBB5177004E84F8 /* dealcards.png */,
+				D7747D4F1BBE266D00E95D6F /* background.png */,
+				D7747D501BBE266D00E95D6F /* dealcards.png */,
+				D7747D511BBE266D00E95D6F /* player.png */,
 				D74415AD1BBB4C90004E84F8 /* Main.storyboard */,
-				D74415A71BBB3DCB004E84F8 /* settings_btn.png */,
-				D74415A51BBB384C004E84F8 /* logo.png */,
 				D74415851BBB2AE0004E84F8 /* AppDelegate.swift */,
 				D74415871BBB2AE0004E84F8 /* ViewController.swift */,
 				D744158C1BBB2AE0004E84F8 /* Images.xcassets */,
 				D744158E1BBB2AE0004E84F8 /* LaunchScreen.xib */,
 				D74415831BBB2AE0004E84F8 /* Supporting Files */,
 				D74415B11BBBAC88004E84F8 /* GamePlayController.swift */,
+				D7B2E4161BD89D93002FA664 /* SettingsController.swift */,
+				D7B2E4181BD8A2AB002FA664 /* HomePageController.swift */,
+				D7BBEA0C1BD9F236000126B7 /* BLEManager.swift */,
+				D7BBEA0E1BD9F418000126B7 /* BLEHandler.swift */,
+				D7BBEA101BDA0167000126B7 /* LeaderboardController.swift */,
+				B267E7841BDF141F001A461B /* LeaderboardSingleton.swift */,
+				D7A7AFDB1BE88D12001A5B58 /* PlayerController.swift */,
 			);
 			path = crazyEights;
 			sourceTree = "<group>";
@@ -214,14 +274,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7A7AFE61BE896BA001A5B58 /* jane_profile_02.png in Resources */,
+				D7B2E4131BD60AE3002FA664 /* settings_btn.png in Resources */,
 				D74415AE1BBB4C90004E84F8 /* Main.storyboard in Resources */,
-				D74415AC1BBB45C3004E84F8 /* player.png in Resources */,
-				D74415A61BBB384C004E84F8 /* logo.png in Resources */,
-				D74415B01BBB5177004E84F8 /* dealcards.png in Resources */,
-				D74415AA1BBB450C004E84F8 /* background.png in Resources */,
-				D74415A81BBB3DCB004E84F8 /* settings_btn.png in Resources */,
+				D7A7AFC41BE7FC8D001A5B58 /* logo.png in Resources */,
+				D7747D521BBE266D00E95D6F /* background.png in Resources */,
+				D7A7AFEA1BE896BA001A5B58 /* nelson_profile_02.png in Resources */,
+				D79E10F11BE97D30005B6A46 /* jesse_profile_head_02.png in Resources */,
+				D7A7AFE81BE896BA001A5B58 /* maria_profile_02.png in Resources */,
+				D7A7AFD61BE8265C001A5B58 /* lose_banner_06.png in Resources */,
+				D7747D541BBE266D00E95D6F /* player.png in Resources */,
+				D7A7AFD21BE80F50001A5B58 /* left_arrow@2x.png in Resources */,
+				D7A7AFD31BE80F50001A5B58 /* points_tracker_06.png in Resources */,
+				D7747D531BBE266D00E95D6F /* dealcards.png in Resources */,
+				D79E10ED1BE96FFF005B6A46 /* matt_profile_head_02.png in Resources */,
+				D7A7AFE71BE896BA001A5B58 /* jesse_profile_02.png in Resources */,
+				D79E10F31BE97D82005B6A46 /* jane_profile_head_02.png in Resources */,
 				D7C0D1D61BBC7A7B0037B7D8 /* icon-60@2x.png in Resources */,
+				D79E10EB1BE96EE6005B6A46 /* maria_profile_head_02.png in Resources */,
+				D7A7AFE91BE896BA001A5B58 /* matt_profile_02.png in Resources */,
 				D74415901BBB2AE0004E84F8 /* LaunchScreen.xib in Resources */,
+				D79E10EF1BE97CF0005B6A46 /* nelson_profile_head_02.png in Resources */,
 				D744158D1BBB2AE0004E84F8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,9 +313,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B2E4171BD89D93002FA664 /* SettingsController.swift in Sources */,
+				D7BBEA0D1BD9F236000126B7 /* BLEManager.swift in Sources */,
+				D7B2E4191BD8A2AB002FA664 /* HomePageController.swift in Sources */,
+				D7BBEA0F1BD9F418000126B7 /* BLEHandler.swift in Sources */,
 				D74415B21BBBAC88004E84F8 /* GamePlayController.swift in Sources */,
 				D74415881BBB2AE0004E84F8 /* ViewController.swift in Sources */,
 				D74415861BBB2AE0004E84F8 /* AppDelegate.swift in Sources */,
+				B267E7851BDF141F001A461B /* LeaderboardSingleton.swift in Sources */,
+				D7A7AFDC1BE88D12001A5B58 /* PlayerController.swift in Sources */,
+				D7BBEA111BDA0167000126B7 /* LeaderboardController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
