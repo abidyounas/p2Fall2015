@@ -9,7 +9,7 @@
 import UIKit
 
 class SettingsController : UIViewController, UIGestureRecognizerDelegate, UIPickerViewDataSource, UIPickerViewDelegate {
-    
+
     
     @IBOutlet weak var difficultyText: UILabel!
     @IBOutlet weak var numOfPlayersText: UILabel!
@@ -33,7 +33,7 @@ class SettingsController : UIViewController, UIGestureRecognizerDelegate, UIPick
     var numOfPlayers = ["2", "3", "4"]
     var fonts = ["Helvetica", "Arial", "Courier", "San Francisco" ]
     var themeColors = ["Original","Blue", "Green", "Red", "Yellow"]
-
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,11 +43,10 @@ class SettingsController : UIViewController, UIGestureRecognizerDelegate, UIPick
         self.swipeBack.addGestureRecognizer(swipeRight)*/
         
         //set default values
-        difficultySelector.text = difficultyModes[pickerView1.selectedRowInComponent(0)]
+        //difficultySelector.text = difficultyModes[pickerView1.selectedRowInComponent(0)]
         fontSelector.text = fonts[0]
         numOfPlayersSelector.text = numOfPlayers[0]
         themeSelector.text = themeColors[0]
-        
         
         pickerView1.hidden = true
 
@@ -150,7 +149,9 @@ class SettingsController : UIViewController, UIGestureRecognizerDelegate, UIPick
         pickerView1.hidden = false
         
     }
+    
     @IBAction func difficultyEditingDone(sender: AnyObject) {
+
         pickerView1.hidden = true
     }
  
