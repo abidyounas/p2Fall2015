@@ -2,24 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Volumes/Users/Kamal Gill/Documents/Projects/Apps/Crazy Eight&apos;s/Final_Version/images/dealcards.png">
-   </FileRef>
-   <FileRef
-      location = "group:../crazyEights/Base.lproj/Main.storyboard">
-   </FileRef>
-   <FileRef
-      location = "group:/Volumes/Users/Kamal Gill/Documents/Projects/Apps/Crazy Eight&apos;s/Final_Version/images/player.png">
-   </FileRef>
-   <FileRef
-      location = "group:/Volumes/Users/Kamal Gill/Documents/Projects/Apps/Crazy Eight&apos;s/Final_Version/images/background.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../../Volumes/Users/Kamal Gill/Documents/Projects/Apps/Crazy Eight&apos;s/Final_Version/settings_btn.png">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../Desktop/logo.png">
-   </FileRef>
-   <FileRef
       location = "self:crazyEights.xcodeproj">
    </FileRef>
 </Workspace>

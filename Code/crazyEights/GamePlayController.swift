@@ -11,7 +11,8 @@ import UIKit
 class GamePlayController: UIViewController, UIGestureRecognizerDelegate, UITextFieldDelegate{
   
     let lbSingleton = LeaderboardSingleton.sharedInstance
-    let profilePic = PlayerController()
+    let setSingleton = SettingsSingleton.sharedInstance
+ 
     
     @IBOutlet weak var loseButton: UIButton!
     @IBOutlet weak var winButton: UIButton!
@@ -19,19 +20,27 @@ class GamePlayController: UIViewController, UIGestureRecognizerDelegate, UITextF
     @IBOutlet weak var settingsBtn: UIImageView!
     
     @IBOutlet weak var player2Head: UIImageView!
+    @IBOutlet weak var player3Head: UIImageView!
+    @IBOutlet weak var player4Head: UIImageView!
     
+    @IBOutlet weak var background: UIImageView!
+    
+    @IBOutlet weak var player01Name: UILabel!
     @IBOutlet weak var player2Name: UILabel!
+    @IBOutlet weak var player3Name: UILabel!
+    @IBOutlet weak var player4Name: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Bluetooth Connect Alert
         let alert = UIAlertView()
         alert.title = "Bluetooth Paring Request"
-        alert.message = "Ben's iPhone would like to pair with your iPhone."
+        alert.message = "Ben's iphone  would like to pair with your iPhone."
         alert.addButtonWithTitle("Cancel")
         alert.addButtonWithTitle("Pair")
         alert.show()
 
-    
         // Connecting Alert
         /*let alert = UIAlertView()
         alert.title = "Starting Game"
@@ -40,13 +49,41 @@ class GamePlayController: UIViewController, UIGestureRecognizerDelegate, UITextF
         alert.show()
         */
         
-        generateRandomPlayerPicture()
+        self.player01Name.text = setSingleton.player01Name
+        self.player2Name.text = setSingleton.player02Name
+        
+        self.player3Head.hidden = true
+        self.player4Head.hidden = true
+        self.player3Name.hidden = true
+        self.player4Name.hidden = true
+        
+        if (setSingleton.numOfPlayers == "3") {
+            self.player3Head.hidden = false
+            self.player3Name.hidden = false
+            self.player3Name.text = setSingleton.player03Name
+        } else if (setSingleton.numOfPlayers == "4") {
+            self.player3Head.hidden = false
+            self.player3Name.hidden = false
+            self.player4Head.hidden = false
+            self.player4Name.hidden = false
+            self.player3Name.text = setSingleton.player03Name
+            self.player4Name.text = setSingleton.player04Name
+        }
+        
+        if (setSingleton.theme == "Orange") {
+            self.background.image = UIImage(named: "background_orange.png")
+        } else if (setSingleton.theme == "Aqua") {
+            self.background.image = UIImage(named: "background_aqua.png")
+        } else if (setSingleton.theme == "Holiday") {
+            self.background.image = UIImage(named: "background_holiday.png")
+        } else if (setSingleton.theme == "Code Red") {
+            self.background.image = UIImage(named: "background_codeRed.png")
+        }
     
         let swipeRight: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: Selector("swipedRight:"))
         swipeRight.direction = UISwipeGestureRecognizerDirection.Right
         self.cards.addGestureRecognizer(swipeRight)
     
-        
         
         //create tap gesture recongizer
         let tapGesture = UITapGestureRecognizer(target: self, action: "imageTapped:")
@@ -56,30 +93,9 @@ class GamePlayController: UIViewController, UIGestureRecognizerDelegate, UITextF
         //make sure imageView can be interacted with by user
         settingsBtn.userInteractionEnabled = true
         
-
-        
-        
     }
     
-    func generateRandomPlayerPicture() {
-        let randomIndex = Int(arc4random_uniform(UInt32(profilePic.randomNames.count)))
-        
-        if (randomIndex == 0) {
-            self.player2Head.image = UIImage(named: "jesse_profile_head_02.png")
-            self.player2Name.text = profilePic.randomNames[0]
-        } else if (randomIndex == 1) {
-            self.player2Head.image = UIImage(named: "maria_profile_head_02.png")
-            self.player2Name.text = profilePic.randomNames[1]
-        } else if (randomIndex == 2) {
-            self.player2Head.image = UIImage(named: "jane_profile_head_02.png")
-            self.player2Name.text = profilePic.randomNames[2]
-        } else if (randomIndex == 3) {
-            self.player2Head.image = UIImage(named: "nelson_profile_head_02.png")
-            self.player2Name.text = profilePic.randomNames[3]
-        }
-        
-
-    }
+   
     
     func imageTapped(gesture: UIGestureRecognizer) {
         if let settingsBtn = gesture.view as? UIImageView {

@@ -11,6 +11,8 @@ import UIKit
 
 class HomePageController : UIViewController {
     
+    
+    
     @IBOutlet weak var settingsBtn: UIImageView!
     
     
@@ -25,6 +27,11 @@ class HomePageController : UIViewController {
         //make sure imageView can be interacted with by user
         settingsBtn.userInteractionEnabled = true
         
+
+        
+        //UINavigationBar.appearance().barTintColor = UIColor.greenColor()
+        
+        
     }
     
     
@@ -36,5 +43,8 @@ class HomePageController : UIViewController {
             
         }
     }
+    
+    
+   
     
 }
